@@ -16,7 +16,7 @@ You'll work with a minimal React application and build out Docker support, CI/CD
 
 - Fork this repository.
 - Set your forked repo to **private**.
-- Invite **`converty-username`** (replace with actual GitHub username) as a **collaborator**.
+- Invite **`AhmedAb1d`** (replace with actual GitHub username) as a **collaborator**.
 
 ---
 
