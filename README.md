@@ -77,12 +77,13 @@ Once invited:
 
 1. I will create a branch and open a pull request.
 2. I will verify:
-   - CI workflow triggers and runs correctly
-   - Secrets are secure
-   - Main branch protection is enforced
-   - Docker image is pushed on merge to main
-   - Docker image size is within acceptable range (bonus)
-   - Additional test or validation stages exist (bonus)
+  - CI workflow triggers and runs correctly
+  - Secrets are secure
+  - Main branch protection is enforced
+  - Docker image is pushed on merge to main
+  - Docker image size is within acceptable range (bonus)
+  - Additional test or validation stages exist (bonus)
+3. I will attempt to create another branch and modify the workflow on main to deploy a malicious Docker image to DockerHub (to test security controls).
 
 ---
 
