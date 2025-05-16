@@ -2,7 +2,7 @@ name: CD PIPELINE
 
 on:
   push:
-    branches: [fix/update-dockerfile]
+    branches: [main, fix/update-dockerfile]
   workflow_dispatch:
 
 jobs:
