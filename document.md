@@ -25,13 +25,13 @@ Our CI/CD pipeline is successfully operational, as evidenced by the following sc
 
 ### Docker Images Successfully Built and Tagged
 
-![Docker Tags](path/to/your/image1.png)
+![image](https://github.com/user-attachments/assets/c5e92403-57ad-4c30-bd1a-6d4408ffa8a6)
 
 This screenshot shows the Docker images successfully built and tagged with various version identifiers including commit SHA (`d0b05cd`), `latest`, and branch name tags.
 
 ### GitHub Actions Workflow Success
 
-![GitHub Actions Workflow](path/to/your/image2.png)
+![image](https://github.com/user-attachments/assets/6f11736a-9914-43df-86d2-99287afbfb29)
 
 This screenshot displays the successful execution of our CD pipeline, showing the Security Scan and Build and Push Docker Image steps completing in 3m 31s.
 
