@@ -2,8 +2,8 @@ name: CD PIPELINE
 
 on:
   push:
-    branches: [main]
-  workflow_dispatch: 
+    branches: [fix/update-dockerfile]
+  workflow_dispatch:
 
 jobs:
   security-scan:
@@ -21,7 +21,7 @@ jobs:
         uses: github/codeql-action/init@v2
         with:
           languages: typescript
-      
+
       - name: Perform CodeQL Analysis
         uses: github/codeql-action/analyze@v2
 
@@ -58,10 +58,10 @@ jobs:
       - name: Scan for vulnerabilities
         uses: aquasecurity/trivy-action@master
         with:
-          scan-type: 'fs'
-          format: 'table'
-          severity: 'CRITICAL,HIGH'
-          exit-code: '1'
+          scan-type: "fs"
+          format: "table"
+          severity: "CRITICAL,HIGH"
+          exit-code: "1"
           ignore-unfixed: true
 
       - name: Build and push Docker image
